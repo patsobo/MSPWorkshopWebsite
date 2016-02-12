@@ -9,14 +9,23 @@ exports.pokemonTypeName = {
 }
 exports.fire = [
     {
-    name: 'Charmander',
-    moveset: ["Scratch",
-            "Ember",
-            "Smokescreen",
-            "Fire Spin"
+        name: 'Charmander',
+        moveset: ["Scratch",
+                "Ember",
+                "Smokescreen",
+                "Fire Spin"
+            ],
+        photo : 'http://bulbapedia.bulbagarden.net/wiki/File:004Charmander.png'
+    },
+    {
+        name: 'Cyndaquil',
+        moveset: ["Flamethrower",
+            "Flame Wheel",
+            "Swift",
+            "Smokescreen"
         ],
-    photo : 'http://bulbapedia.bulbagarden.net/wiki/File:004Charmander.png'
-}
+        photo : 'http://bulbapedia.bulbagarden.net/wiki/File:155Cyndaquil.png'
+    }
 ]
 
 
@@ -30,6 +39,15 @@ exports.water = [
             "Withdraw"
         ],
         photo : 'http://bulbapedia.bulbagarden.net/wiki/File:007Squirtle.png'
+    },
+    {
+        name: 'Totodile',
+        moveset: ["Water Gun",
+            "Hydro Pump",
+            "Slash",
+            "Surf"
+        ],
+        photo : 'http://bulbapedia.bulbagarden.net/wiki/File:158Totodile.png'
     }
 ]
 
@@ -43,5 +61,14 @@ exports.grass = [
             "Growl"
         ],
         photo : 'http://bulbapedia.bulbagarden.net/wiki/File:001Bulbasaur.png'
+    },
+    {
+        name: 'Chikorita',
+        moveset: ["Synthesis",
+            "Razor Leaf",
+            "Tackle",
+            "Body Slam"
+        ],
+        photo : 'http://bulbapedia.bulbagarden.net/wiki/File:152Chikorita.png'
     }
 ]
