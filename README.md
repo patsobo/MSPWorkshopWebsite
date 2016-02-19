@@ -10,5 +10,5 @@ A template for making a simple website using Jade, Stylus, and Express.  Modifie
 
 ### And that's about it... 
 
-Again, big thanks to the Node crash course guys for creating this project.
+Again, big thanks to the Node crash course guys for creating the original template for this project.
 
