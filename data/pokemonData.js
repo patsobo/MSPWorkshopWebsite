@@ -1,21 +1,21 @@
 ﻿/**
-    This is the data source for your application. In the real world, you would either get this data from a data base or
+    This is the data source for your application. In the real world, you would either get this data from a database or
     from an API 
 **/
-exports.pokemonTypeName = {
-    fire : 'Fire',
-    water : 'Water',
-    grass : 'Grass'
+exports.pokemonType = {
+    fire : 'Fire Type',
+    water : 'Water Type',
+    grass : 'Grass Type'
 }
 exports.fire = [
     {
         name: 'Charmander',
         moveset: ["Scratch",
-                "Ember",
-                "Smokescreen",
-                "Fire Spin"
-            ],
-        photo : 'http://bulbapedia.bulbagarden.net/wiki/File:004Charmander.png'
+            "Ember",
+            "Smokescreen",
+            "Fire Spin"
+        ],
+        photo : 'http://cdn.bulbagarden.net/upload/7/73/004Charmander.png'
     },
     {
         name: 'Cyndaquil',
@@ -24,7 +24,7 @@ exports.fire = [
             "Swift",
             "Smokescreen"
         ],
-        photo : 'http://bulbapedia.bulbagarden.net/wiki/File:155Cyndaquil.png'
+        photo : 'http://cdn.bulbagarden.net/upload/9/9b/155Cyndaquil.png'
     }
 ]
 
@@ -38,7 +38,7 @@ exports.water = [
             "Water Gun",
             "Withdraw"
         ],
-        photo : 'http://bulbapedia.bulbagarden.net/wiki/File:007Squirtle.png'
+        photo : 'http://cdn.bulbagarden.net/upload/3/39/007Squirtle.png'
     },
     {
         name: 'Totodile',
@@ -47,7 +47,7 @@ exports.water = [
             "Slash",
             "Surf"
         ],
-        photo : 'http://bulbapedia.bulbagarden.net/wiki/File:158Totodile.png'
+        photo : 'http://cdn.bulbagarden.net/upload/d/df/158Totodile.png'
     }
 ]
 
@@ -60,7 +60,7 @@ exports.grass = [
             "Razor Leaf",
             "Growl"
         ],
-        photo : 'http://bulbapedia.bulbagarden.net/wiki/File:001Bulbasaur.png'
+        photo : 'http://cdn.bulbagarden.net/upload/2/21/001Bulbasaur.png'
     },
     {
         name: 'Chikorita',
@@ -69,6 +69,6 @@ exports.grass = [
             "Tackle",
             "Body Slam"
         ],
-        photo : 'http://bulbapedia.bulbagarden.net/wiki/File:152Chikorita.png'
+        photo : 'http://cdn.bulbagarden.net/upload/b/bf/152Chikorita.png'
     }
 ]
